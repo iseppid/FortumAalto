@@ -24,12 +24,12 @@ angular.module('fortum')
         $scope.windowOpen = function (){
             if (isOpen) {
                 isOpen = false;
-                $scope.windowbutton = 'green';
+                $scope.windowbutton = '#4794D0';
                 $scope.windowIcon = 'close';
             }
             else {
                 isOpen = true;
-                $scope.windowbutton = 'red';
+                $scope.windowbutton = '#E54D33';
                 $scope.windowIcon = 'open';
             }
         };
